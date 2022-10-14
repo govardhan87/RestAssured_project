@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3536" started-at="2022-10-12T04:30:31 UTC" finished-at="2022-10-12T04:30:35 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3536" started-at="2022-10-12T04:30:31 UTC" finished-at="2022-10-12T04:30:35 UTC">
+      <class name="projectGorest.CreateUpdateDeleteUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:projectGorest.CreateUpdateDeleteUser@5ef60048]" name="setUp" is-config="true" duration-ms="20" started-at="2022-10-12T04:30:31 UTC" finished-at="2022-10-12T04:30:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postData()[pri:0, instance:projectGorest.CreateUpdateDeleteUser@5ef60048]" name="postData" duration-ms="259" started-at="2022-10-12T04:30:31 UTC" finished-at="2022-10-12T04:30:32 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:projectGorest.CreateUpdateDeleteUser@5ef60048]" name="createUser" duration-ms="1841" started-at="2022-10-12T04:30:32 UTC" finished-at="2022-10-12T04:30:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="updateUser()[pri:2, instance:projectGorest.CreateUpdateDeleteUser@5ef60048]" name="updateUser" duration-ms="1008" started-at="2022-10-12T04:30:33 UTC" finished-at="2022-10-12T04:30:34 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="deleteResource()[pri:3, instance:projectGorest.CreateUpdateDeleteUser@5ef60048]" name="deleteResource" duration-ms="367" started-at="2022-10-12T04:30:34 UTC" finished-at="2022-10-12T04:30:35 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResource -->
+      </class> <!-- projectGorest.CreateUpdateDeleteUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
